@@ -15,6 +15,7 @@ import VerticalTimeline from './Components/Timeline';
 import Carousel from './Components/Carousel';
 import Hero from './Components/Hero';
 import Footer from "./Components/Footer"
+import ProposalForm from './Components/ProposalForm';
 
 
 const Homepage = () => {
@@ -50,9 +51,9 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/past-projects" element={<PastProjects />} />
+        <Route path="/proposalform" element={<ProposalForm />} />
         <Route path="/upcoming-projects" element={<UpcomingProjects />} />
         {/* <Route path="/time" element={<VerticalTimeline />} /> */}
-
         {/* <Route path="/" element={<OrderManagement />} /> */}
       </Routes>
       <Footer />
